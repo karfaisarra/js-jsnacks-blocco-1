@@ -11,8 +11,8 @@ const parola7 = Number(prompt('Inserisci un numero'));
 const parola8 = Number(prompt('Inserisci un numero'));
 const parola9 = Number(prompt('Inserisci un numero'));
 const parola10 = Number(prompt('Inserisci un numero'));
-//Il programma stampa la somma di tutti i numeri inseriti
+//la somma di tutti i numeri inseriti
 const result = parola1 + parola2 + parola3 + parola4 + parola5 + parola6 + parola7 + parola8 + parola9 + parola10 ;
-// stampo il resultato
+//stampo il risultato
 const h1El = document.querySelector('h1');
 h1El.innerHTML=`${result}`;
