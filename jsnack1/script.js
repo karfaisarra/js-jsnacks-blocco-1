@@ -1,8 +1,8 @@
 /* L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore. */
 
 //L’utente inserisce due numeri in successione, con due prompt
-const firstUser = prompt('Inserisci il primo numero');
-const secondUser = prompt('Inserisci il secondo numero');
+const firstUser = Number(prompt('Inserisci il primo numero'));
+const secondUser = Number(prompt('Inserisci il secondo numero'));
 
 let result;
 if(firstUser > secondUser){
