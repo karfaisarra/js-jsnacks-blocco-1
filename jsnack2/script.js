@@ -22,9 +22,9 @@ if (firsWord.length > secondWord.length){
 const h1El = document.querySelector('h1');
 
 if(result == firsWord){
-    h1El.innerHTML=`${result} ${secondWord}`;
+    h1El.innerHTML=`  ${secondWord} ${result}`;
 }else if (result == secondWord){
-    h1El.innerHTML=`${result} ${firsWord}`;
+    h1El.innerHTML=`${firsWord} ${result} `;
 }else{
     h1El.innerHTML=`le parole hanno la stessa lunghezza`;
 }
