@@ -12,9 +12,11 @@ if(firstUser > secondUser){
     console.log(secondUser);
     result = secondUser;
 
-}else {
+}else if (firstUser == secondUser) {
     console.log('sono uguali');
     result = 'sono uguali';
+}else {
+    result = 'scrivi solo numeri';
 }
 
 //Il software stampa il maggiore.
