@@ -7,10 +7,9 @@ const nomePartecipanti = ['Sarra', 'hello', 'salut', 'ciao'];
 const nome = prompt('Inserisci il tuo nome');
 
 let i=0;
-let nomi;
 let valid = false;
 while (i < nomePartecipanti.length) {
-    nomi = nomePartecipanti[i];
+    const nomi = nomePartecipanti[i];
     //console.log(nomi);
     if (nomi == nome ) {
         valid = true;
