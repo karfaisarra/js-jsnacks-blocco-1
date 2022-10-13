@@ -18,7 +18,7 @@ const h1El = document.querySelector('h1');
 h1El.innerHTML=`${result}`; */
 
 //Il software deve chiedere per 10 volte all’utente di inserire un numero.
-let sum = 0;
+/* let sum = 0;
 for (let i = 0; i < 10 ; i++) {
     const userNumber = Number(prompt('Inserisci un numero'));
     sum += userNumber;
@@ -26,5 +26,15 @@ for (let i = 0; i < 10 ; i++) {
 console.log(sum);
 
 //stampo il risultato
+const h1El = document.querySelector('h1');
+h1El.innerHTML=`${sum}`; */
+let sum = 0;
+let i=0;
+while (i < 10) {
+    const userNumber = Number(prompt('Inserisci un numero'));
+    sum += userNumber;
+
+    i++;
+}
 const h1El = document.querySelector('h1');
 h1El.innerHTML=`${sum}`;
